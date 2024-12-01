@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edStoryDescription"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/description"
+        android:importantForAccessibility="yes"
+        />
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/selected_image" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/selected_image" />
+
+    <Button
+        android:id="@+id/buttonSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/select_image"
+        android:contentDescription="@string/select_image" />
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/ambil_gambar_dari_kamera"
+        android:contentDescription="@string/ambil_gambar_dari_kamera" />
+
+    <Button
+        android:id="@+id/buttonAddStory"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/add_story"
+        android:contentDescription="@string/add_story" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="description">Description</string>
+    <string name="selected_image">Selected Image</string>
+    <string name="select_image">Select Image</string>
+    <string name="add_story">Add Story</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="ayo_teman_teman_daftar_dulu_hehe">Ayo teman teman daftar dulu hehe</string>
+    <string name="ayo_teman_teman_login_dulu_hehe">Ayo teman teman login dulu hehe</string>
+    <string name="masukan_nama_anda">masukan nama anda</string>
+    <string name="ambil_gambar_dari_kamera">ambil gambar dari kamera</string>
+    <string name="gambar">gambar</string>
+    <string name="name">Name</string>
+    <string name="date">date</string>
+    <string name="time">jam\n</string>
+</resources>
